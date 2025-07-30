@@ -9,8 +9,8 @@ const person = {
   role: "Data Science Student | Exploring Machine Learning",
   avatar: "/images/avatar.jpg",
   email: "cuthbertyoung05@gmail.com",
-  location: "Surabaya, Indonesia",
-  languages: ["English", "Bahasa"],
+  location: "Asia/Jakarta",
+  languages: ["English", "Bahasa Indonesia"],
   tagline: "Aspiring Data Scientist | Machine Learning Enthusiast",
 };
 
@@ -31,12 +31,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/cuthbertyoungg",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/cuthbertyoung5",
   },
   {
     name: "Threads",
@@ -91,44 +91,53 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Hi! I'm Cuthbert, a Surabaya-based third-year data science student
+        passionate about turning real-world challenges into data-driven insights and solutions. 
+        I enjoy working on data analysis, dashboards & visualizations, and machine learning projects 🤖.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Experiences",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "IRIS Research",
+        timeframe: "2024- Present",
+        role: "Researcher",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Conducted various short-term data science projects,
+            including sentiment analysis and time-series modeling and
+            <strong> participated in 10+ data science competitions.</strong>
+
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Represented IRIS in international
+            collaboration through the <strong>AeroMind – Mobility and AI Innovation Program </strong> 
+             between FTMM Universitas Airlangga and <strong>Temasek Polytechnic Singapore</strong>, 
+            engaging in discussions on AI and its implementation in South East Asia.
+          </>,
+          <>
+            Achieved <strong>1st Place</strong> in the national IMITKOM USU 2025 Data Science Competition 🥇
+            and ranked <strong>Top 5</strong> (out of 110+ teams) in the private leaderboard of the Kaggle-based
+            Gammafest IPB 2025 challenge, predicting paper citation links using Deep Learning techniques.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/USU CERTIFICATE.jpg",
+            alt: "USU CERTIFICATE",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Faculty of Advanced Technology and Multidisciplinary",
+        timeframe: "2024 - Present",
+        role: "Student Ambassador",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -145,15 +154,23 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Airlangga University - Data Science Technology",
+        description: <>Studying Data Science Technology with
+         a focus on advanced statistics, data analysis, 
+         and machine learning. Gaining hands-on experience through
+          academic projects and real-world applications.
+        </>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Google Data Analytics Specialization Coursera",
+        description: <>Completed the 8-Course Professional Certificate covering data cleaning, analysis, and visualization 
+          using spreadsheets, SQL, R, Tableau, ggplot2, and RMarkdown. Gained hands-on skills through real-world case studies, 
+          culminating in a capstone project simulating the role of a junior data analyst. 
+          </>,
+          
       },
     ],
   },
